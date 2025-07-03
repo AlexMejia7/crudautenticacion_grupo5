@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-
-    <!-- Permitir tráfico HTTP sin cifrar (cleartext) para localhost en emulador -->
-    <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">10.0.2.2</domain>
-    </domain-config>
-
-    <!-- Opcional: permitir tráfico cleartext para localhost por nombre (localhost) -->
-    <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">localhost</domain>
-    </domain-config>
-
+    <base-config cleartextTrafficPermitted="true" />
 </network-security-config>
+
