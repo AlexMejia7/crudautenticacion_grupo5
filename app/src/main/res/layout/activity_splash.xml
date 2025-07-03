@@ -58,4 +58,12 @@
         android:text="Alex Nain Mejía #200630520001"
         android:textSize="16sp"
         android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvIntegrante3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dennis Elias Maradiaga #202310010219"
+        android:textSize="16sp"
+        android:textColor="#000000" />
 </LinearLayout>
